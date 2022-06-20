@@ -285,8 +285,8 @@ SofatimeComponent.prototype.renderTime = function (day, timezone, is24, format =
 
   if(format) { return day.tz(timezone).format(format) }
 
-  const options = { month: "long", day: "numeric", hour: "numeric", minute: "numeric" }
-  return day.tz(timezone).toDate().toLocaleString(undefined, options)
+  const options = { timeZone: timezone, month: "long", day: "numeric", hour: "numeric", minute: "numeric" }
+  return day.toDate().toLocaleString(undefined, options)
 }
 
 // SofatimeComponent.prototype.renderOptionsList = function (stateChange) {

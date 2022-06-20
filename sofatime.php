@@ -2,9 +2,9 @@
 /**
  * Plugin Name: SoFA Time
  * Description: Uses a shortcode to identify time and date strings and change them to the client's local timezone.
- * Author: SociocracyForAll, Vernon Coffey
+ * Author: SociocracyForAll
  * Author: Vernon Coffey
- * Version: 0.813
+ * Version: 0.814
  */
 
 $sofatime_id_incrementer = 0;
