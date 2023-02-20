@@ -1,4 +1,4 @@
-# sofatime Wordpress plugin
+# SoFATime Wordpress plugin
 ### use a shortcode to display a date and time in user's local or chosen timezone
 
 #### HOW TO USE:
